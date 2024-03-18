@@ -1,0 +1,13 @@
+import pandas as pd
+data = {
+    'Year': [1986, 1985, 1986, 1987],
+    'WHO region': ['Western Pacific', 'Americas', 'Americas', 'Africa'],
+    'Country': ['Viet Nam', 'Uruguay', "Cte d'Ivoire", 'Colombia'],
+    'Beverage Types': ['Wine', 'Beer', 'Beer', 'Other'],
+    'Display Value': [0.00, 0.50, 1.62, 4.27]
+}
+
+df = pd.DataFrame(data)
+print("Dimensions of the dataset:", df.shape)
+print("Column names:")
+print(df.columns)
